@@ -1,0 +1,1 @@
+select * from LAB_1_DB.LAB1_ORDERS_SCHEMA.customers
