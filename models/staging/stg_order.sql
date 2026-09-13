@@ -1,0 +1,1 @@
+select order_id,CUSTOMER_ID,PRODUCT_ID,QUANTITY,ORDER_DATE  from {{source('raw','orders')}}

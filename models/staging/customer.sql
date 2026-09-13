@@ -1,0 +1,2 @@
+select customer_id,  upper( CUSTOMER_NAME ) as CUSTOMER_NAME , upper ( CITY ) as CITY, COUNTRY from {{source('raw','customers')}}
+

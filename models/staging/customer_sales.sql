@@ -1,0 +1,1 @@
+select customer_id,customer_name,city,count(distinct order_id) as total_sales,sum(quantity) as total_units,sum(price) as average_order from {{ref("customer_order")}} group by customer_id,customer_name,city
